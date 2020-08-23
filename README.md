@@ -1,1 +1,4 @@
 # World_Weather_Analysis
+
+## Overview
+  * In this project, I evaluated the weather conditions in randomly generated cities. To get the cities, I randomly generated lattitude and longitude pairs and grouped the closest city within a certain proximity to these coordinates. All of these cities were added to a dataFrame and examined for reference when customers are deciding vacation trips. The customer has the ability to select a range of temperatures to identify potential travel destinations. Once this range is determined, the dataframe is sorted with only cities that sit in the temp range. Hotel names local to said cities were determined by using a google maps API. A pop up map was created to show customers where the hotels and cities are located. 4 different cities were then choosen and routes between the cities were generated using another google API. Finally, pop up markers were generated for each city on the itinerary. 
